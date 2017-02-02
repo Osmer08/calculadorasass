@@ -1,0 +1,70 @@
+#cuadro {
+  height: 30vw;
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around; }
+
+body {
+  height: 30vw;
+  width: 30vw;
+  display: flex;
+  background-image: url("http://3.bp.blogspot.com/-YOMQmCZIJaU/UkuMVCv1_OI/AAAAAAAB6Fo/8iE2X5VWmM8/s1600/paisaje.gif");
+  background-size: 100vw 51vw; }
+
+span {
+  font-size: 2vw; }
+
+html {
+  display: flex;
+  justify-content: center; }
+
+#muestra {
+  height: 4vw;
+  width: 28vw;
+  align-self: flex-start;
+  display: block;
+  text-align: center;
+  font-size: 2.3vw;
+  color: #2D4406; }
+
+#cuadro #operaciones {
+  width: 10vw;
+  height: 23.3vw;
+  display: flex;
+  align-self: flex-end;
+  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around; }
+  #cuadro #operaciones div {
+    height: 2vw;
+    width: 6vw;
+    text-align: center;
+    background-color: #149836; }
+    #cuadro #operaciones div:hover {
+      background: #13B43C;
+      color: white;
+      box-shadow: 0.5vw 0.5vw 0.6vw #34761F; }
+#cuadro #numeros {
+  height: 23.3vw;
+  width: 17vw;
+  align-self: flex-end;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around; }
+  #cuadro #numeros div {
+    height: 2vw;
+    width: 6vw;
+    text-align: center;
+    background-color: #149836; }
+    #cuadro #numeros div:hover {
+      background: #13B43C;
+      color: white;
+      box-shadow: 0.5vw 0.5vw 0.6vw #34761F; }
+
+/*# sourceMappingURL=cal.css.map */
