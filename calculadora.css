@@ -1,0 +1,97 @@
+#cuadro {
+	
+	height: 30vw; 
+	width: 30vw;
+	border: 0.3vw solid black;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: space-around;
+	box-shadow: 1.2vw 1.2vw 4vw #001EFF;
+
+}
+body {
+	height: 30vw;
+	width: 30vw;
+	display: flex;
+	background-image: url(http://img.celmaitare.net/wp-content/uploads/2014/12/Poze-Peisaje-163.jpg);
+	background-size: 100vw 51vw;
+
+}
+html {
+	display: flex;
+	justify-content: center;
+}
+
+#muestra {
+	border:0.3vw solid blue;
+	height:4vw;
+	width: 28vw;
+	align-self: flex-start;
+	display: block;
+	text-align: center;
+	font-size: 2vw;
+}
+
+#cuadro > #operaciones {
+	width: 10vw;
+   height: 23.3vw;
+   display: flex;
+   border: 0.1vw solid black;
+   align-self: flex-end;
+}
+
+#cuadro > #numeros {
+	border: 0.1vw solid red;
+	height: 23.3vw;
+	width: 17vw;
+	align-self: flex-end;
+
+}
+
+#numeros > div {
+	height: 2vw;
+	width: 6vw;
+	border: 0.1vw solid blue;
+	text-align: center;
+	box-shadow: 1vw 1vw 0.8vw #001EFF;
+	background-color: #5d97f4;
+}
+span {
+
+	font-weight: bold;
+	font-size: 2vw;
+	color: black;
+	
+}
+#numeros {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: space-around;
+}
+#operaciones {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: space-around;
+}
+
+#operaciones > div {
+	height: 2vw;
+	width: 6vw;
+	border: 0.1vw solid blue;
+	box-shadow: 1vw 1vw 0.8vw #001EFF;
+	text-align: center;
+	background-color: #5d97f4;
+}
+#numeros > div:hover {
+	background: #003fff;
+
+}
+#operaciones > div:hover {
+	background: #003fff;
+}

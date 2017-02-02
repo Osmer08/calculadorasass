@@ -1,0 +1,83 @@
+@import _variables
+
+#cuadro 
+	height: 30vw 
+	width: 30vw
+	//border: 0.3vw solid black
+	display: flex
+	justify-content: center
+	flex-wrap: wrap
+	justify-content: space-around
+	align-content: space-around
+
+
+body 
+	height: 30vw
+	width: 30vw
+	display: flex
+	background-image: url($imagen)
+	background-size: 100vw 51vw
+span
+	font-size: 2vw
+html 
+	display: flex
+	justify-content: center
+
+#muestra 
+	height: 4vw
+	width: 28vw
+	align-self: flex-start
+	display: block
+	text-align: center
+	font-size: 2.3vw
+	color: #2D4406
+
+#cuadro
+	#operaciones 
+		width: 10vw
+		height: 23.3vw
+		display: flex
+		//border: 0.1vw solid black
+		align-self: flex-end
+		justify-content: center
+		flex-wrap: wrap
+		justify-content: space-around
+		align-content: space-around
+		div
+			height: 2vw
+			width: 6vw
+			//border: 0.1vw solid blue
+			//box-shadow: $sombra
+			text-align: center
+			background-color: #149836
+			&:hover
+				background: $clic
+				color: white
+				box-shadow: $sombra
+	#numeros 
+		//border: 0.1vw solid red
+		height: 23.3vw
+		width: 17vw
+		align-self: flex-end
+		display: flex
+		justify-content: center
+		flex-wrap: wrap
+		justify-content: space-around
+		align-content: space-around
+		div 
+			height: 2vw
+			width: 6vw
+			//border: 0.1vw solid blue
+			text-align: center
+			//box-shadow: $sombra
+			background-color: #149836
+			&:hover
+				background: $clic
+				color: white
+				box-shadow: $sombra
+
+
+
+
+
+
